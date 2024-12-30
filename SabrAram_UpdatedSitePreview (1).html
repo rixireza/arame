@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صبر آرام</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #FF007F, #8E2DE2, #4A00E0);
+            color: #ffffff;
+        }
+        header {
+            padding: 20px 10px;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        header img {
+            max-width: 120px;
+            border-radius: 10px;
+            display: block;
+            margin: 0 auto 10px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.1);
+        }
+        nav a {
+            text-decoration: none;
+            color: #FFFFFF;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: rgba(255, 0, 127, 0.7);
+            backdrop-filter: blur(5px);
+            border-radius: 20px;
+            margin: 20px;
+        }
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }
+        .section-title {
+            text-align: center;
+            margin: 30px 0 10px;
+            font-size: 2rem;
+            color: #FFDAFF;
+        }
+        .poem {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.2);
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            line-height: 1.8;
+            font-style: italic;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            margin: 20px;
+        }
+        .product {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            padding: 15px;
+            text-align: center;
+        }
+        .product h3 {
+            font-size: 1.5rem;
+            color: #ffffff;
+        }
+        .product p {
+            font-size: 1rem;
+            color: #f0f0f0;
+        }
+        .contact {
+            background: rgba(72, 0, 144, 0.8);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 20px;
+        }
+        .contact h2 {
+            font-size: 2rem;
+        }
+        .contact p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/mnt/data/A_whimsical_and_romantic_illustration_of_a_young_c.png" alt="لوگو سایت">
+        <h1>صبر آرام</h1>
+    </header>
+    <nav>
+        <a href="#hero">درباره ما</a>
+        <a href="#poem">با این برا تو هست</a>
+        <a href="#products">محصولات ما</a>
+        <a href="#contact">تماس با ما</a>
+    </nav>
+    <section class="hero" id="hero">
+        <h2>آرام جان، روشنیِ جان و روانم</h2>
+        <p>
+            گمان مبر که با گفتنِ «صبر کن»، آتش عشقت در دلم خاموش شود.
+            که این دل، با هر لحظه‌ای انتظار، چون نقاشی خیال، تصویری از تو می‌سازد.
+            رؤیایی از روزهایی که عشقمان، چون خورشید، گرم و بیپایان می‌تابد.
+            صبر من، نجوای عاشقانه‌ای‌ست در گوش زمان، تا آن لحظه که دل تو،
+            به جز من، هیچ سرایی نیابد.
+        </p>
+    </section>
+    <section id="poem">
+        <h2 class="section-title">با این برا تو هست</h2>
+        <div class="poem">
+            آرام، چه نامی چو نغمه‌ای رود،<br>
+            که در جان و دل می‌نشاند سرود.<br>
+            چنان آفتابی به صبحِ بهار،<br>
+            پر از لطف و مهر و امید و قرار.<br><br>
+            به شوخی، همان روزِ تریاک‌مان،<br>
+            که خندید جهان از لبانِ جوان،<br>
+            نه از دود و مستی، که از حالِ خوش،<br>
+            جهانی عطر حضور داشت.<br><br>
+            خطابم به «بچه»، چه آتش به پا،<br>
+            به جانم نشانْدی غمی بی‌نها.<br>
+            لجوجانه گفتی، ولی دلنشین،<br>
+            چنان قصه‌ای در خیالِ یقین.<br><br>
+            پرسیدی چرا عاشقت گشته ام؟<br>
+            که دل را به نامت چه سرمست کرده ام؟<br>
+            نگفتم به ظاهر، که مهرِ تو بود،<br>
+            که در دل، به عشقت جنون آفرید.<br><br>
+            نه یک دل، که صد دل ز شوقت غریب،<br>
+            اسیرت شدم، مانده در مه شکیب.<br>
+            تو آرامِ جانم، به شوق و امید،<br>
+            که عشقت مرا تا ابد می‌کشید.<br>
+        </div>
+    </section>
+    <section id="products">
+        <h2 class="section-title">محصولات ما</h2>
+        <div class="products">
+            <div class="product">
+                <h3>عشق همین الان</h3>
+                <p>توضیحات: یک عشق فوری بدون منتظر ماندن.</p>
+            </div>
+            <div class="product">
+                <h3>عشق با کمی ناز</h3>
+                <p>توضیحات: عشق با چاشنی دلربایی.</p>
+            </div>
+            <div class="product">
+                <h3>عشق برای بعداً</h3>
+                <p>توضیحات: برای زمانی که آماده‌تر هستید!</p>
+            </div>
+            <div class="product">
+                <h3>عشق برای دو سال دیگر</h3>
+                <p>توضیحات: یزید به توان بینهایت.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h2>تماس با ما</h2>
+        <p>چنانچه با یکی از گزینه‌ها موافقید یا حتی مخالفید، زنگ بزنید!</p>
+        <p>شماره تماس: 09059310493</p>
+    </section>
+    <footer>
+        © 2024 صبر آرام | تمامی حقوق محفوظ است.
+    </footer>
+</body>
+</html>
